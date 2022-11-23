@@ -1,0 +1,15 @@
+// GIÁ VỐN
+
+IF [Tổng xuất]>0 
+	THEN [Giá trị xuất]/[Tổng xuất] *(1+0.05)
+ELSEIF [Tổng nhập]>0 
+	THEN [Giá trị nhập]/[Tổng nhập] *(1+0.05)
+ELSE
+	0
+END 
+
+
+
+
+ 
+
